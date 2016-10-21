@@ -1,6 +1,6 @@
 {
   "name": "html-inflect-preset-indesign",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A set of preset InDesign tasks for html-inflect.",
   "main": "index.js",
   "repository": {
