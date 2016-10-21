@@ -10,3 +10,4 @@ exports.default = function() {
         'selector': '[lang]:not(html)'
     }]
 }
+module.exports = exports['default']
