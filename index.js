@@ -1,6 +1,6 @@
 'use strict';
 
-export default function() {
+exports.default = function() {
     return [{
         'action': 'removeElement',
         'selector': '[id^=_id],[class^=_id]'
