@@ -1,12 +1,10 @@
-'use strict';
-
 module.exports = [
     {
-        action: 'removeElement',
+        action: 'removeContainer',
         selector: '[id^=_id],[class^=_id]'
     },
     {
-        action: 'removeAttribute',
+        action: 'removeAttributes',
         parameter: 'lang',
         selector: '[lang]:not(html)'
     }
