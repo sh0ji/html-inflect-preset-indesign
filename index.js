@@ -1,7 +1,7 @@
 module.exports = [
     {
         action: 'removeContainer',
-        selector: '[id^=_id],[class^=_id]'
+        selector: '[id^=_id]:not(img),[class^=_id]:not(img)'
     },
     {
         action: 'removeAttributes',
